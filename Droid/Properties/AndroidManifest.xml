@@ -3,4 +3,5 @@
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
 	<application android:label="test-cloud-ci-example">
 	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
 </manifest>
