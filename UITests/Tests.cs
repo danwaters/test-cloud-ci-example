@@ -26,6 +26,7 @@ namespace testcloudciexample.UITests
 		}
 
 		[Test]
+		[Category("BasicAndroid")]
 		public void WelcomeTextIsDisplayed ()
 		{
 			AppResult[] results = app.WaitForElement (c => c.Marked ("Welcome to Xamarin Forms!"));
